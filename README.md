@@ -1,5 +1,7 @@
 # ts
 
+[首頁](dist)
+
 ## Project setup
 ```
 npm install
