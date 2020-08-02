@@ -1,6 +1,6 @@
 # ts
 
-[首頁](dist/index.html)
+[首頁](dist)
 
 ## Project setup
 ```
