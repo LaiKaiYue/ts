@@ -84,7 +84,7 @@ const e2: E<Date, boolean> = function funcE2 (arg0: Date, arg1: boolean) {
  * (不能有 Parameter 'obj' implicitly has an 'any' type.)
  */
 
-function funcF<T, K extends keyof T> (obj: T, key: K): string {
+function funcF<T, K extends keyof T> (obj: T, key: K): T[K] {
   return obj[key]
 }
 
