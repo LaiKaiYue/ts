@@ -22,6 +22,11 @@ const routes: Array<RouteConfig> = [
     path: '/typeScript',
     name: 'TypeScript',
     component: () => import(/* webpackChunkName: "HelloTypescript" */ '../views/HelloTypescript.vue')
+  },
+  {
+    path: '/generic',
+    name: 'Generic',
+    component: () => import(/* webpackChunkName: "HelloTypescript" */ '../views/Generic.vue')
   }
 ]
 
